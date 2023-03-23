@@ -5,12 +5,13 @@
   * Description: 'Prints alphabets in lowercase'
   *
  */
-void print_alphabet(void)
+void print_alphabet_10(void)
 {
 	int a,b;
-	for(a = 97; a <=122; a++)
+
+	for(b = 97; b <=122; b++)
 	{
-		for(b = 0; b <= 10, b++);
+		for(a = 0; a <= 10, a++)
 		{
 			_putchar(a);
 		}
