@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
-  * main - Entry point
-  * Description: 'Prints alphabets in lowercase'
+  *  printing: 10 x alphabet
   *
+  *
+  *Return: Always 0 (Success)
  */
-void print_alphabet_10(void)
+void print_alphabet_x10(void)
 {
-	int a,b;
+	int a, b;
 
-	for(b = 97; b <=122; b++)
+	for (b = 97; b <= 122; b++)
 	{
-		for(a = 0; a <= 10, a++)
+		for (a = 0; a <= 10, a++)
 		{
 			_putchar(a);
 		}
