@@ -1,11 +1,16 @@
 #include "main.h"
 
-int _isuppe(int c)
-{
-	char c;
-		for (c = 41; c < 59; c++)
-		{
-			putchar();
+/**
+ * _isupper - checks if a character is uppercase
+ * @c: the character to check
+ *
+ * Return: 1 if c is uppercase, 0 otherwise
+ */
 
-	return (0);
+int _isupper(int c)
+{
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
