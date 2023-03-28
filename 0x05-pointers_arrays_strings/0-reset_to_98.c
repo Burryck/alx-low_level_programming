@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
-  *main - resetting a point
-  *@reset_to_98 - reset n to 98
+  *reset_to_98 - changes the value of n to 98
+  *@n: is th value to be replaced
   *Return: 0.
   */
 
