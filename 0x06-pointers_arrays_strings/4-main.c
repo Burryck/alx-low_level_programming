@@ -2,11 +2,13 @@
 #include <stdio.h>
 
 /**
-  * main - check the code
-  * @a: an array of integers
-  * @n: the number of elements to swap
-  * @print_array: prints array
-  * Return: nothing.
+ * print_array - Prints the contents of an integer array to stdout.
+ *
+  * @a: The integer array to print.
+  * @n: the number of elements in the array.
+  *
+ * Description: This function prints the contents of the input array
+  * Return: 0.
   */
 void print_array(int *a, int n)
 {
@@ -38,5 +40,6 @@ int main(void)
 	print_array(a, sizeof(a) / sizeof(int));
 	reverse_array(a, sizeof(a) / sizeof(int));
 	print_array(a, sizeof(a) / sizeof(int));
+	return (0);
 
 }
