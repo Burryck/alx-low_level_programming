@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**array - reverses an array
  *
  * @a: array to reverse
