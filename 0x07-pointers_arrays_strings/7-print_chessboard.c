@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+	
   * print_chessboard - is a function to print an 8 array of char
   * @a: is a pointer to an [8] pieces of chess
   *
