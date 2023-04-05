@@ -6,13 +6,13 @@
   * @s: this is a start of pointer for the search
   * @c: the char to locate in the string
   *
-  * Return: to c or NULL
+  * Return: Always 0 (Success)
   */
 char *_strchr(char *s, char c)
 {
 	int i;
 	
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i] >= '\0'; i++)
 	{
 		if (s[i] == c)
 			return (s + i);
