@@ -1,12 +1,13 @@
-#include "main.h"
 #include <stdio.h>
-/**
-  * _strpbrk - a function that searches for any of a set of bytes
-  * @s: locates the first occurence
-  * @accept: string input
+#include "main.h"
 
-  *Return: to the byte or NULL
-  */
+/**
+ * _strpbrk - Entry point
+ * @s: input
+ * @accept: input
+ * Return: Always 0 (Success)
+ */
+
 char *_strpbrk(char *s, char *accept)
 {
 	int i, n;
@@ -19,5 +20,6 @@ char *_strpbrk(char *s, char *accept)
 				return (s + i);
 		}
 	}
+
 	return (NULL);
 }
