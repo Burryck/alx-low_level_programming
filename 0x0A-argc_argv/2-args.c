@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-  * main - a program that prints all the args it receives 
+  * main - a program that prints all the args it receives
   * @argc: counts the lines of arguments that is passed through
   * @argv: argument vector
   *
