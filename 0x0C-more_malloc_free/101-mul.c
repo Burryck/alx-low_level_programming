@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * helper_function: this function checks if a character is digit
+ * helper_function - this function checks if a character is digit
  * @c: is the character to check
  *
  * Return: Always 0 (Success)
